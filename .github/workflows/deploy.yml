@@ -1,0 +1,82 @@
+name: Deploy Nuxt + VitePress Docs to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  # 同一个分组内的工作流任务互斥 + 禁用系统内置工作流（临时解决办法: 手动删除 pages build and deployment 内置生成的产物）
+  group: pages
+  # 连续多次推送，自动取消还没跑完的 同一个 group 中的旧构建，避免堆积多个部署任务互相覆盖
+  # false: 任务排队，新旧两个任务全部跑完，在当前后面部署时间长，易造成部署打架、artifact 覆盖;
+  # 该任务适合 true。设置为 true 只部署最新更新的 action
+  # To also cancel any currently running job or workflow in the same
+  # concurrency group, specify cancel-in-progress: true.
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install root dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Build Nuxt (root site / )
+        run: bun run nuxt build --preset github_pages
+
+      - name: Build VitePress docs (/docs)
+        run: bun run docs:build
+
+      - name: Copy vitepress dist files into nuxt public/docs folder
+        run: |
+          mkdir -p .output/public/docs
+          cp -r docs/.vitepress/dist/* .output/public/docs/
+
+      - name: Print directory structure for debug
+        run: |
+          echo "===== .output/public ====="
+          ls -l -a .output/public
+          echo ""
+          echo "===== .output/public/docs ====="
+          ls -l -a .output/public/docs
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: ./.output/public
+
+  deploy:
+    needs: build
+    if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    name: Deploy
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
