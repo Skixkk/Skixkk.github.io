@@ -1,137 +1,269 @@
 <template>
   <div class="page-container">
     <header class="hero">
-      <h1>Hi there 👋</h1>
+      <h1>Skixkk</h1>
       <div class="badge-wrap">
-        <a href="https://github.com/runsme-com">
-          <img src="https://img.shields.io/badge/GitHub‑Org‑Profile-24292f?logo=github" alt="GitHub Organisation Profile" />
-        </a>
-        <a href="https://github.com/runsme-com/runsme-com.github.io">
-          <img src="https://img.shields.io/badge/Homepage‑Repo-sourcecode-8c36db" alt="Homepage Source Repository" />
-        </a>
+        <a href=" ">
+          <img
+            src="https://img.shields.io/badge/GitHub-Profile-24292f?logo=github"
+            alt="GitHub Profile"
+          />
+        </a >
+        <a href="https://github.com/Skixkk?tab=repositories">
+          <img
+            src="https://img.shields.io/badge/GitHub-Repositories-24292f?logo=github"
+            alt="GitHub Repositories"
+          />
+        </a >
         <a href="https://runsme-com.github.io/docs/">
-          <img src="https://img.shields.io/badge/Docs‑Site‑Blog‑Document-3498db" alt="Official Documentation Site" />
-        </a>
-        <img src="https://komarev.com/ghpvc/?username=runsme-com&label=Views&color=orange&style=flat" alt="访问量统计" class="badge-img" />
+          <img
+            src="https://img.shields.io/badge/Runsme-Documentation-3498db"
+            alt="Runsme Documentation"
+          />
+        </a >
       </div>
       <blockquote class="hero-quote">
-        An open‑source engineering team, submits pull‑requests, resolves bugs,
-        implements feature improvements and optimizes documentation for worldwide open‑source repositories.
+        Quantitative Researcher & Full Stack Engineer exploring the intersection of
+        Chemistry, Scientific Computing, AI and Software Engineering.
       </blockquote>
     </header>
 
     <section>
-      <h2>🎯 Organisation Mission</h2>
+      <h2>Background</h2>
       <p>
-        Runsme‑tech‑lab is an independent‑focused open‑source engineering community‑run organisation.
-        Our core mission is delivering high‑quality contributions to the global open‑source ecosystem.
-        Our primary daily‑time‑activities:
-      </p>
-      <ul>
-        <li>Submit well‑formed and standard‑compliant pull‑requests to public upstream GitHub repositories worldwide</li>
-        <li>Identify and resolve runtime faults, performance bottlenecks, environment‑adaptation and compatibility‑related bugs</li>
-        <li>Develop lightweight, practical feature implementations matching the requirements of the upstream community</li>
-        <li>Carry out source‑code refactoring, unify code style and supplement missing code comments</li>
-        <li>Optimize official guides, repository README files, tutorials and multilingual documentation resources</li>
-        <li>Sort incoming issues, conduct peer code review and troubleshoot GitHub‑Actions CI workflows for repository maintainers</li>
-      </ul>
+        My academic background is rooted in chemistry, while my professional and technical
+        development has expanded into quantitative research, machine learning, scientific
+        computing and full-stack software engineering.
+      </p >
       <p>
-        We build our engineering reputation through consistent, high‑quality community‑oriented contributions.
-        We demonstrate our team‑wide technical competency to global developer communities,
-        enterprise engineering teams and startup developers.
-        All of our open‑source achievements serve community‑value creation, knowledge sharing and long‑term‑open‑source
-        ecosystem cooperation.
-      </p>
-    </section>
-
-    <section>
-      <h2>👥 Open‑source Team Roles & Training</h2>
-      <h3>Recruit‑in Positions</h3>
+        I use programming and mathematical modeling as tools for solving problems across
+        scientific research, financial data analysis, artificial intelligence and engineering.
+        My current focus is moving toward computational chemical engineering and scientific
+        software development.
+      </p >
       <ul>
-        <li>Data Scientist</li>
-        <li>Machine‑Learning Engineer</li>
-        <li>Quantitative Researcher</li>
-        <li>Back‑end Software Engineer</li>
-        <li>DevOps & CI/CD Engineer</li>
-      </ul>
-
-      <h3>Internal Training Direction</h3>
-      <ul>
-        <li>End‑to‑end machine‑learning engineering workflow</li>
-        <li>Statistical‑analysis, time‑series processing and data‑prediction technology</li>
-        <li>Quantitative‑research strategy design and back‑testing framework practice</li>
-        <li>Standardised open‑source collaboration specifications and general software‑engineering capability</li>
-        <li>GitHub workflow operation, pull‑request conventions and automated CI/CD pipeline deployment</li>
-        <li>Polite upstream‑community communication and open‑source collaborative experience</li>
+        <li>Chemistry and chemical science foundation</li>
+        <li>Quantitative research and systematic data analysis</li>
+        <li>Machine learning and artificial intelligence</li>
+        <li>Full-stack and cross-platform software engineering</li>
+        <li>Scientific computing and numerical modeling</li>
+        <li>Open-source scientific software development</li>
       </ul>
     </section>
-
+    
     <section>
-      <h2>📋 Contribution Fields</h2>
+      <h2>Research Direction</h2>
+      <p>
+        My long-term research direction is
+        <strong>Open Chemical Scientific Computing</strong>, combining chemical science,
+        chemical engineering, numerical methods, artificial intelligence and software engineering.
+      </p >
+      <ul>
+        <li>Chemical thermodynamics and equations of state</li>
+        <li>Phase equilibrium and flash calculation</li>
+        <li>Chemical kinetics and reaction engineering</li>
+        <li>Process simulation and process systems engineering</li>
+        <li>Numerical analysis, ODE / DAE and nonlinear solvers</li>
+        <li>Optimization and optimal process operation</li>
+        <li>AI-assisted chemical engineering and surrogate modeling</li>
+        <li>Scientific software architecture and open-source development</li>
+      </ul>
+    </section>
+    
+    <section>
+      <h2>Technical Background</h2>
+    
+      <h3>Scientific Computing</h3>
+      <ul>
+        <li>Python, NumPy, SciPy, Pandas and Matplotlib</li>
+        <li>Numerical analysis and scientific data processing</li>
+        <li>Ordinary and differential-algebraic equations</li>
+        <li>Numerical optimization and mathematical modeling</li>
+        <li>GPU computing and PyTorch-based scientific workloads</li>
+      </ul>
+    
+      <h3>Artificial Intelligence</h3>
+      <ul>
+        <li>Machine learning and deep learning</li>
+        <li>Natural language processing</li>
+        <li>Computer vision and vision-language models</li>
+        <li>Time-series modeling and prediction</li>
+        <li>AI-based industrial monitoring and anomaly detection</li>
+      </ul>
+    
+      <h3>Software Engineering</h3>
+      <ul>
+        <li>TypeScript, JavaScript, Python, Java and C++</li>
+        <li>Vue, Nuxt, React, Vite and Tailwind CSS</li>
+        <li>Node.js, FastAPI, Django and Spring Boot</li>
+        <li>Electron and cross-platform application development</li>
+        <li>PostgreSQL, Redis, Docker and CI/CD</li>
+      </ul>
+    </section>
+    
+    <section>
+      <h2>Selected GitHub Repositories</h2>
+      <p>
+        My repositories cover quantitative research, artificial intelligence, scientific
+        computing, developer tooling and engineering infrastructure.
+      </p >
+    
+      <h3>Quantitative Research</h3>
+      <ul>
+        <li>
+          <a href="https://github.com/Skixkk/comoon">
+            comoon
+          </a >
+          — Financial information and quantitative research platform for event-driven data,
+          market information and research workflows.
+        </li>
+      </ul>
+    
+      <h3>AI and Industrial Monitoring</h3>
+      <ul>
+        <li>
+          <a href="https://github.com/Skixkk/mage_monitor">
+            mage_monitor
+          </a >
+          — AI and computer-vision experiments for industrial visual monitoring and anomaly detection.
+        </li>
+        <li>
+          <a href="https://github.com/Skixkk/qwen_vl_monitor">
+            qwen_vl_monitor
+          </a >
+          — Vision-language model experiments for structured industrial monitoring and anomaly analysis.
+        </li>
+      </ul>
+    
+      <h3>Scientific Computing and Infrastructure</h3>
+      <ul>
+        <li>
+          <a href="https://github.com/Skixkk/check-cuDNN-with-PyTorch">
+            check-cuDNN-with-PyTorch
+          </a >
+          — CUDA, cuDNN and PyTorch environment verification utilities.
+        </li>
+      </ul>
+    
+      <h3>Developer Tools</h3>
+      <ul>
+        <li>
+          <a href="https://github.com/Skixkk/DocAutoFlow">
+            DocAutoFlow
+          </a >
+          — Document automation workflow based on Pandoc and LibreOffice.
+        </li>
+        <li>
+          <a href="https://github.com/Skixkk/markpandocview">
+            markpandocview
+          </a >
+          — Markdown and Pandoc-based document preview and conversion tooling.
+        </li>
+      </ul>
+    </section>
+    
+    <section>
+      <h2>Open Chemical Scientific Computing</h2>
+      <p>
+        I am studying the architecture and implementation of open-source scientific software
+        such as chemical thermodynamics libraries, process simulators, reaction-kinetics
+        frameworks and computational fluid-dynamics systems.
+      </p >
+    
       <ol>
-        <li>LLM and multimodal vision‑processing open‑source frameworks</li>
-        <li>Python data‑analysis toolkits, vector databases and time‑series processing libraries</li>
-        <li>Quantitative‑analysis, strategy back‑testing and market‑data processing open‑source projects</li>
-        <li>GitHub‑Actions, workflow‑automation and Dev‑Ops tool‑chain repositories</li>
-        <li>Repository specification arrangement, multilingual‑document revision and static‑document inspection‑and‑fix work</li>
+        <li>Understand chemical thermodynamics and property calculations</li>
+        <li>Implement equations of state and phase-equilibrium calculations</li>
+        <li>Build flash and unit-operation simulation components</li>
+        <li>Study nonlinear equations, ODE / DAE systems and numerical solvers</li>
+        <li>Construct process simulation and optimization workflows</li>
+        <li>Introduce machine learning and physics-informed surrogate models</li>
+        <li>Develop open-source scientific computing infrastructure</li>
       </ol>
     </section>
-
+    
     <section>
-      <h2>✅ Pull‑Request Standards</h2>
-      <ol>
-        <li>Single‑responsibility principle: one pull‑request addresses exactly one bug, adjustment or feature</li>
-        <li>All newly‑added source‑code conforms to the upstream repository’s existing coding‑style, naming scheme and formatting rules</li>
-        <li>Every git commit follows the Angular‑style conventional commit specification</li>
-        <li>Complete local unit‑test verification before submission, guaranteeing upstream CI workflows can pass inspection</li>
-        <li>Bug‑fix pull‑requests are required to supply clear reproduction procedures, runtime logs and supporting screenshots</li>
-        <li>Maintain courteous, patient and formal communication with upstream maintainers throughout the whole code‑review cycle</li>
-        <li>Log every submitted and successfully‑merged pull‑request inside our internal contribution archive for team‑record‑keeping</li>
-      </ol>
-    </section>
-
-    <section>
-      <h2>📁 Our Own‑Managed Repositories</h2>
+      <h2>Open-source Development</h2>
       <p>
-        Besides contributing to third‑party upstream open‑source projects, our organisation also maintains our own public
-        repositories:
-      </p>
+        I participate in open-source engineering through source-code research, issue analysis,
+        bug fixing, feature implementation, documentation improvement and pull-request collaboration.
+      </p >
       <ul>
-        <li>Public demonstration repositories for reusable self‑built technical components</li>
-        <li>Shared GitHub‑Actions workflows and automation configuration files</li>
-        <li>Team‑maintained specification documents, contribution guides, PR‑templates and issue‑templates</li>
-        <li>Summarised practice cases accumulated from our open‑source collaborative work</li>
+        <li>Source-code analysis and architecture research</li>
+        <li>Bug reproduction and debugging</li>
+        <li>Feature implementation and refactoring</li>
+        <li>Documentation and technical writing</li>
+        <li>GitHub Issues and Pull Requests</li>
+        <li>GitHub Actions and CI/CD workflows</li>
+        <li>Open-source engineering practices and upstream collaboration</li>
       </ul>
     </section>
-
+    
     <section>
-      <h2>🚀 Organisation‑Wide Development Roadmap</h2>
-      <h3>1. Short‑term (0‑6 month)</h3>
+      <h2>Research Roadmap</h2>
+    
+      <h3>1. Chemical Foundations</h3>
       <p>
-        Keep stable daily open‑source contribution work, build our portfolio of accepted pull‑requests,
-        improve our organisation contribution graph and finish debugging our GitHub‑Actions automated workflows.
-      </p>
-      <h3>2. Mid‑term (6‑18 month)</h3>
+        Strengthen chemical engineering fundamentals including thermodynamics, transport
+        phenomena, reaction engineering, separation processes and process safety.
+      </p >
+    
+      <h3>2. Scientific Computing</h3>
       <p>
-        Gain recognition from multiple upstream repository maintainer communities.
-        We are ready to deliver open‑source technical services for outside developer teams,
-        including custom source‑code tuning, long‑term repository maintenance, outsourced code review and open‑source
-        technical consultation.
-      </p>
-      <h3>3. Long‑term stage</h3>
+        Develop deeper capabilities in numerical analysis, linear algebra, nonlinear systems,
+        ODE / DAE solvers, sparse computation and high-performance scientific computing.
+      </p >
+    
+      <h3>3. Process Simulation</h3>
       <p>
-        Release mature self‑developed open‑source projects driven by community‑side requirements.
-        Construct our well‑known open‑source engineering brand, expand partnerships with global open‑source communities
-        and continuously provide valuable resources for the whole developer ecosystem.
-      </p>
+        Progress from individual thermodynamic and unit-operation models toward equation-oriented
+        process simulation and dynamic process modeling.
+      </p >
+    
+      <h3>4. Optimization and AI</h3>
+      <p>
+        Combine process models with mathematical optimization, machine learning, surrogate models,
+        parameter estimation and intelligent process control.
+      </p >
+    
+      <h3>5. Scientific Software</h3>
+      <p>
+        Build reusable open-source computational infrastructure that connects physical models,
+        numerical algorithms, scientific data and modern software engineering.
+      </p >
     </section>
-
+    
     <section>
-      <h2>🤝 How‑to Join Us</h2>
+      <h2>Long-term Direction</h2>
       <p>
-        If you are keen on upstream‑repository contribution, algorithm development or DevOps workflow practice,
-        welcome to create an issue for your self‑introduction.
-      </p>
+        The long-term objective is to work at the intersection of computational chemical
+        engineering, scientific computing, artificial intelligence and open-source software.
+      </p >
+      <p>
+        The intended development path is:
+      </p >
+      <blockquote class="hero-quote">
+        Chemistry → Mathematical Modeling → Scientific Computing → Process Simulation →
+        Optimization → AI → Digital Twin → Open Scientific Software
+      </blockquote>
+    </section>
+    
+    <section>
+      <h2>Contact and Projects</h2>
+      <p>
+        The source code, experiments and ongoing research projects are available through GitHub.
+      </p >
+      <ul>
+        <li>
+          <a href="https://github.com/Skixkk">
+            GitHub Profile
+          </a >
+        </li>
+        <li>
+          <a href="https://github.com/Skixkk?tab=repositories">
+            GitHub Repositories
+          </a >
+        </li>
+      </ul>
     </section>
   </div>
 </template>
