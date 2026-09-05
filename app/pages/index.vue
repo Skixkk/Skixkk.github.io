@@ -3,7 +3,7 @@
     <header class="hero">
       <h1>Skixkk</h1>
       <div class="badge-wrap">
-        <a href=" ">
+        <a href="https://github.com/Skixkk">
           <img
             src="https://img.shields.io/badge/GitHub-Profile-24292f?logo=github"
             alt="GitHub Profile"
